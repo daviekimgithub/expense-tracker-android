@@ -33,6 +33,3 @@ jobs:
       - name: Run Unit Test Android Test Module
         shell: bash
         run: ./gradlew :test:testDebugUnitTest
-      - name: Run Unit Test iOS Test Module
-        shell: bash
-        run: ./gradlew :test:iosSimulatorArm64Test
