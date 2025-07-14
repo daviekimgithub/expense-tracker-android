@@ -5,8 +5,8 @@ on:
   pull_request:
     branches: [ "main" ]
 env:
-  G_USERNAME: ${{vars.G_USERNAME}}
-  G_TOKEN: ${{vars.G_TOKEN}}
+  G_USERNAME: ${{secrets.G_USERNAME}}
+  G_TOKEN: ${{secrets.G_TOKEN}}
 
 jobs:
   check-code-style:
